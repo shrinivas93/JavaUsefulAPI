@@ -1,0 +1,20 @@
+<company>
+	<staff id="1">
+		<firstname>Shrinivas</firstname>
+		<lastname>Shukla</lastname>
+		<nickname>Manu</nickname>
+		<salary>33500</salary>
+	</staff>
+	<staff id="2">
+		<firstname>Nikita</firstname>
+		<lastname>Joshi</lastname>
+		<nickname>Nikki</nickname>
+		<salary>30000</salary>
+	</staff>
+	<staff id="3">
+		<firstname>Mohini</firstname>
+		<lastname>Gupta</lastname>
+		<nickname>Baarik</nickname>
+		<salary>47500</salary>
+	</staff>
+</company>
