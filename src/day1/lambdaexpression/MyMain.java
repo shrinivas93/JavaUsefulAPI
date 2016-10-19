@@ -1,6 +1,6 @@
 package day1.lambdaexpression;
 
-public class MyClass {
+public class MyMain {
 	public static void main(String[] args) {
 		MyInterface returnVal1 = (name, n) -> {
 			for (int i = 0; i < n; i++) {

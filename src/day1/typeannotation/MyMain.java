@@ -1,6 +1,6 @@
 package day1.typeannotation;
 
-public class MyClass {
+public class MyMain {
 
 	public static void main(String[] args) {
 		// @NonNull

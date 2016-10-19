@@ -4,7 +4,7 @@ import java.awt.Color;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 
-public class MyClass {
+public class MyMain {
 
 	@day1.repeatableannotation.Color(r = 128)
 	@day1.repeatableannotation.Color(g = 128)
@@ -13,7 +13,7 @@ public class MyClass {
 
 	public static void main(String[] args) throws ClassNotFoundException, NoSuchFieldException, SecurityException {
 		System.out.println(color);
-		Class<?> classname = Class.forName(MyClass.class.getName());
+		Class<?> classname = Class.forName(MyMain.class.getName());
 		System.out.println(classname);
 		Field field = classname.getDeclaredField("color");
 		System.out.println(field);
